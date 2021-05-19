@@ -1,0 +1,171 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  align=center
+  margin=0
+  widthtype=percent
+  width=100
+  height=40
+  transparent=1
+  tintcolor=#2d2d2d
+  alpha=0
+  autohide=0
+  heightwhenhidden=2
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontsize=12
+  fontcolor=#ffffff
+  usefontsize=0
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  iconsize=45
+  monitor=0
+  point_at_menu=0
+}
+Plugin {
+  type=menu
+  Config {
+    padding=0
+    image=/usr/share/rpd-wallpaper/pi.png
+    system {
+    }
+    separator {
+    }
+    item {
+      image=system-run
+      command=run
+    }
+    separator {
+    }
+    item {
+      image=system-shutdown
+      command=logout
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=1000
+  }
+  expand=1
+}
+Plugin {
+  type=topmenu_lxpanel
+  Config {
+  }
+  expand=1
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=lxterminal.desktop
+    }
+    Button {
+      id=pcmanfm.desktop
+    }
+    Button {
+      id=synaptic.desktop
+    }
+    Button {
+      id=chromium-browser.desktop
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=732
+  }
+  expand=1
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=ejecter
+  Config {
+    AutoHide=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+  expand=0
+}
+Plugin {
+  type=bluetooth
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+  expand=0
+}
+Plugin {
+  type=dhcpcdui
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=volume
+  Config {
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%R
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=ptbatt
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=dirmenu
+  Config {
+    path=/home/pi
+    image=/usr/share/icons/Paper/512x512/places/folder_home.png
+  }
+}

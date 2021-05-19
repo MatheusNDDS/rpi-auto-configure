@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-applications.menu</MergeFile>
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Exclude>
+			<Filename>qt5ct.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/pi/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>obconf.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxhotkey-gtk.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxinput.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>thunar-volman-settings.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>pcmanfm-desktop-pref.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>

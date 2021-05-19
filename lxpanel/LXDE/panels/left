@@ -1,0 +1,23 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=bottom
+  monitor=0
+  height=35
+  iconsize=35
+  transparent=1
+  background=0
+  tintcolor=#2d2d2d
+  alpha=111
+  autohide=1
+  heightwhenhidden=0
+  setpartialstrut=0
+}
+Plugin {
+  type=taskbar
+  Config {
+    IconsOnly=0
+    FlatButton=-1
+  }
+}
