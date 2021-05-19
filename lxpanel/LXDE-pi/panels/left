@@ -19,6 +19,6 @@ Plugin {
   Config {
     IconsOnly=0
     FlatButton=-1
-    GroupedTasks=0
+    GroupedTasks=1
   }
 }
