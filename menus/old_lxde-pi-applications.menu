@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-pi-applications.menu</MergeFile>
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Exclude>
+			<Filename>pipanel.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/pi/.local/share/applications</AppDir>
+		<Include>
+			<Filename>lxappearance.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>pi-packages.desktop</Filename>
+			<Filename>pipanel.desktop</Filename>
+			<Filename>lxappearance.desktop</Filename>
+			<Filename>system-config-printer.desktop</Filename>
+			<Filename>lxrandr.desktop</Filename>
+			<Filename>lxhotkey-gtk.desktop</Filename>
+			<Filename>lxsession-edit.desktop</Filename>
+			<Filename>pi-gpk-prefs.desktop</Filename>
+			<Filename>obconf.desktop</Filename>
+			<Filename>alacarte.desktop</Filename>
+			<Filename>pcmanfm-desktop-pref.desktop</Filename>
+			<Filename>qt5ct.desktop</Filename>
+			<Filename>rc_gui.desktop</Filename>
+			<Filename>rp-prefapps.desktop</Filename>
+			<Filename>arandr.desktop</Filename>
+			<Filename>lxinput.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>Thunar-folder-handler.desktop</Filename>
+			<Filename>pi-gpk-update-viewer.desktop</Filename>
+			<Filename>lxde-x-terminal-emulator.desktop</Filename>
+			<Filename>Thunar.desktop</Filename>
+			<Filename>htop.desktop</Filename>
+			<Filename>pi-gpk-dbus-service.desktop</Filename>
+			<Filename>pi-gpk-install-local-file.desktop</Filename>
+			<Filename>pi-gpk-log.desktop</Filename>
+			<Filename>pikiss.desktop</Filename>
+			<Filename>Thunar-bulk-rename.desktop</Filename>
+			<Filename>scrcpy.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>
