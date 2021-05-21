@@ -9,7 +9,7 @@ Global {
   width=100
   height=43
   transparent=1
-  tintcolor=#2d2d2d
+  tintcolor=#2f343f
   alpha=206
   autohide=0
   heightwhenhidden=2
@@ -42,7 +42,7 @@ Plugin {
       image=gnome-logout
     }
     image=start-here
-    padding=1
+    padding=2
   }
 }
 Plugin {
