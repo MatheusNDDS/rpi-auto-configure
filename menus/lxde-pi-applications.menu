@@ -4,256 +4,27 @@
   'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
 <Menu>
 	<Name>Applications</Name>
-	<DefaultAppDirs/>
-	<DefaultDirectoryDirs/>
-	<DefaultMergeDirs/>
-	<MergeFile type="parent">/etc/xdg/menus/lxde-pi-applications.menu</MergeFile>
-	<Menu>
-		<Name>menulibre-pastas-do-sistema</Name>
-		<Directory>menulibre-pastas-do-sistema.directory</Directory>
-		<DirectoryDir>/home/pi/.local/share/desktop-directories</DirectoryDir>
-		<Include>
-			<Filename>menulibre-usuário.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-documentos.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-downloads.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-imagmes.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-músicas.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-vídeos.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>menulibre-dispositivos.desktop</Filename>
-		</Include>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>menulibre-usuário.desktop</Filename>
-			<Filename>menulibre-documentos.desktop</Filename>
-			<Filename>menulibre-downloads.desktop</Filename>
-			<Filename>menulibre-imagmes.desktop</Filename>
-			<Filename>menulibre-músicas.desktop</Filename>
-			<Filename>menulibre-vídeos.desktop</Filename>
-			<Filename>menulibre-dispositivos.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-development</Name>
-		<Directory>lxde-development.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>geany.desktop</Filename>
-			<Filename>python2.7.desktop</Filename>
-			<Filename>python3.7.desktop</Filename>
-			<Filename>Thonny.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-education</Name>
-		<Directory>lxde-education.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-office</Name>
-		<Directory>lxde-office.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>libreoffice-startcenter.desktop</Filename>
-			<Filename>libreoffice-base.desktop</Filename>
-			<Filename>libreoffice-calc.desktop</Filename>
-			<Filename>libreoffice-draw.desktop</Filename>
-			<Filename>libreoffice-impress.desktop</Filename>
-			<Filename>libreoffice-math.desktop</Filename>
-			<Filename>libreoffice-writer.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-network</Name>
-		<Directory>lxde-network.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>realvnc-vnclicensehelper.desktop</Filename>
-			<Filename>dillo.desktop</Filename>
-			<Filename>chromium-browser.desktop</Filename>
-			<Filename>lxde-x-www-browser.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-audio-video</Name>
-		<Directory>lxde-audio-video.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>vlc.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-graphics</Name>
-		<Directory>lxde-graphics.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>inkscape.desktop</Filename>
-			<Filename>display-im6.q16.desktop</Filename>
-			<Filename>PikoPixel.desktop</Filename>
-			<Filename>gimp.desktop</Filename>
-			<Filename>gpicview.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-game</Name>
-		<Directory>lxde-game.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>minecraft-pi.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-other</Name>
-		<Directory>lxde-other.directory</Directory>
-		<Include>
-			<Filename>lxde-logout.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>libreoffice-xsltfilter.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>realvnc-vncserverui-user.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>realvnc-vncserverui-virtual.desktop</Filename>
-		</Include>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>lxde-logout.desktop</Filename>
-			<Filename>libreoffice-xsltfilter.desktop</Filename>
-			<Filename>realvnc-vncserverui-user.desktop</Filename>
-			<Filename>realvnc-vncserverui-virtual.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-system-tools</Name>
-		<Directory>lxde-system-tools.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>pi-gpk-update-viewer.desktop</Filename>
-			<Filename>lxde-x-terminal-emulator.desktop</Filename>
-			<Filename>htop.desktop</Filename>
-			<Filename>pi-gpk-dbus-service.desktop</Filename>
-			<Filename>pi-gpk-install-local-file.desktop</Filename>
-			<Filename>pi-gpk-log.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-utility</Name>
-		<Directory>lxde-utility.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>galculator.desktop</Filename>
-			<Filename>menulibre.desktop</Filename>
-			<Filename>pcmanfm.desktop</Filename>
-			<Filename>lxtask.desktop</Filename>
-			<Filename>lxterminal.desktop</Filename>
-			<Filename>qpdfview.desktop</Filename>
-			<Filename>pi-apps.desktop</Filename>
-			<Filename>agnostics.desktop</Filename>
-			<Filename>piclone.desktop</Filename>
-			<Filename>mousepad.desktop</Filename>
-			<Filename>xarchiver.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-utility-accessibility</Name>
-		<Directory>lxde-utility-accessibility.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-help</Name>
-		<Directory>lxde-help.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>rp-bookshelf.desktop</Filename>
-			<Filename>raspi_getstart.desktop</Filename>
-			<Filename>help.desktop</Filename>
-			<Filename>raspi_resources.desktop</Filename>
-			<Filename>debian-reference-common.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>lxde-settings</Name>
-		<Directory>lxde-settings.directory</Directory>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>pi-packages.desktop</Filename>
-			<Filename>pipanel.desktop</Filename>
-			<Filename>lxappearance.desktop</Filename>
-			<Filename>system-config-printer.desktop</Filename>
-			<Filename>lxrandr.desktop</Filename>
-			<Filename>lxhotkey-gtk.desktop</Filename>
-			<Filename>lxsession-edit.desktop</Filename>
-			<Filename>pi-gpk-prefs.desktop</Filename>
-			<Filename>obconf.desktop</Filename>
-			<Filename>alacarte.desktop</Filename>
-			<Filename>pcmanfm-desktop-pref.desktop</Filename>
-			<Filename>qt5ct.desktop</Filename>
-			<Filename>rc_gui.desktop</Filename>
-			<Filename>rp-prefapps.desktop</Filename>
-			<Filename>arandr.desktop</Filename>
-			<Filename>lxinput.desktop</Filename>
-			<Filename>synaptic.desktop</Filename>
-			<Filename>pi-apps-settings.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Layout>
-		<Menuname>menulibre-pastas-do-sistema</Menuname>
-		<Separator/>
-		<Menuname>lxde-development</Menuname>
-		<Menuname>lxde-education</Menuname>
-		<Menuname>lxde-office</Menuname>
-		<Menuname>lxde-network</Menuname>
-		<Menuname>lxde-audio-video</Menuname>
-		<Menuname>lxde-graphics</Menuname>
-		<Menuname>lxde-game</Menuname>
-		<Menuname>lxde-other</Menuname>
-		<Menuname>lxde-system-tools</Menuname>
-		<Menuname>lxde-utility</Menuname>
-		<Menuname>lxde-utility-accessibility</Menuname>
-		<Separator/>
-		<Menuname>lxde-help</Menuname>
-		<Separator/>
-		<Menuname>lxde-settings</Menuname>
-	</Layout>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-applications.menu</MergeFile>
 	<Menu>
 		<Name>DesktopSettings</Name>
 		<Exclude>
-			<Filename>pipanel.desktop</Filename>
+			<Filename>qt5ct.desktop</Filename>
 		</Exclude>
 		<AppDir>/home/pi/.local/share/applications</AppDir>
-		<Include>
-			<Filename>lxappearance.desktop</Filename>
-		</Include>
+		<Exclude>
+			<Filename>obconf.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxhotkey-gtk.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxinput.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>thunar-volman-settings.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>pcmanfm-desktop-pref.desktop</Filename>
+		</Exclude>
 	</Menu>
 </Menu>
