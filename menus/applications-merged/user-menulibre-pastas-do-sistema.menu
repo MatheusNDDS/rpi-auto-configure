@@ -1,0 +1,19 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+    "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<!-- Do not edit manually - generated and managed by xdg-desktop-menu -->
+<Menu>
+    <Name>Applications</Name>
+<Menu>
+    <Name>menulibre-pastas-do-sistema</Name>
+    <Directory>menulibre-pastas-do-sistema.directory</Directory>
+    <Include>
+        <Filename>menulibre-usuário.desktop</Filename>
+        <Filename>menulibre-documentos.desktop</Filename>
+        <Filename>menulibre-imagmes.desktop</Filename>
+        <Filename>menulibre-downloads.desktop</Filename>
+        <Filename>menulibre-músicas.desktop</Filename>
+        <Filename>menulibre-dispositivos.desktop</Filename>
+        <Filename>menulibre-vídeos.desktop</Filename>
+    </Include>
+</Menu>
+</Menu>

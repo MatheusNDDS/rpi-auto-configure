@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=vídeos
+Icon=folder-video
+Exec=pcmanfm
+Path=/home/pi/Vídeos
+Actions=
+Categories=menulibre-pastas-do-sistema;
+StartupNotify=true

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Documentos
+Icon=folder-documents
+Exec=pcmanfm
+Path=/home/pi/Documentos
+Actions=
+Categories=menulibre-pastas-do-sistema;
+StartupNotify=true

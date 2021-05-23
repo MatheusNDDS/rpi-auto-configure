@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Músicas
+Comment=Uma pequena descrição desta aplicaç
+Icon=folder-music
+Exec=pcmanfm
+Path=/home/pi/Música
+Actions=
+Categories=menulibre-pastas-do-sistema;
+StartupNotify=true

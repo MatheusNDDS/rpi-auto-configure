@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Downloads
+Icon=folder-download
+Exec=pcmanfm
+Path=/home/pi/Transferências
+Actions=
+Categories=menulibre-pastas-do-sistema;
+StartupNotify=true

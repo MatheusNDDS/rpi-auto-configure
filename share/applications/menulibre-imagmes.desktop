@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Imagems
+Icon=folder-images
+Exec=pcmanfm
+Path=/home/pi/Imagens
+Actions=
+Categories=menulibre-pastas-do-sistema;
+StartupNotify=true
