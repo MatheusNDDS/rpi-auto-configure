@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=Documentos
-Exec=pcmanfm ~/Documentos
-Type=Application
-Icon=folder-documents

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=Downloads
-Exec=pcmanfm ~/Transferências
-Type=Application
-Icon=folder-download

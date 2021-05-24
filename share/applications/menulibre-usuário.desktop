@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.1
-Type=Application
-Name=Usuário
-Icon=folder-home
-Exec=pcmanfm
-Actions=
-Categories=menulibre-pastas-do-sistema;
-StartupNotify=true

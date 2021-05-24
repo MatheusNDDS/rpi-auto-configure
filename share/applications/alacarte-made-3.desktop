@@ -1,8 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=teste
-Exec=pcmanfm ~/*
-Type=Application
-Icon=folder-home
-Hidden=true

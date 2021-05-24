@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=Usuário
-Exec=pcmanfm ~/
-Type=Application
-Icon=folder-home

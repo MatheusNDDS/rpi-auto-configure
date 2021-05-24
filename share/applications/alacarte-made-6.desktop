@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=Dispositivos
-Exec=pcmanfm /media/pi
-Type=Application
-Icon=removable-media

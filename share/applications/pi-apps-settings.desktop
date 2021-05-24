@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Pi Apps Settings
-Comment=Configure Pi-Apps or create an App
-Exec=/home/pi/pi-apps/settings
-Icon=/home/pi/pi-apps/icons/logo.png
-Terminal=false
-Type=Application
-Categories=Settings;
