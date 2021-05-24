@@ -5,7 +5,6 @@ echo " by Matheus Dias 👽️"
 
 sudo apt update -y ;
 sudo apt install git -y ; 
-sudo apt install menulibre -y ;
 sudo apt install synaptic -y ;
 sudo apt install arc-theme -y ;
 sudo apt purge pulseaudio -y  ;
