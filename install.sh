@@ -127,7 +127,7 @@ rm -rf ~/.config/openbox ; rm -rf ~/.config/lxpanel ; rm -rf ~/.config/lxsession
 
 cp -R ~/rpi-auto-configure/share/* ~/.local/share/ ;
 cp -R ~/rpi-auto-configure/* ~/.config/ ;
-rm -rf ~/.config/install.sh ; rm -rf ~/.config/share
+
 
 sudo cp -R ~/rpi-auto-configure/bash-magic/* /bin/ ;
 
@@ -142,3 +142,4 @@ rm -rf ~/rpi-auto-configure ;
 
 sudo apt autoremove
 reboot
+rm -rf ~/.config/install.sh ; rm -rf ~/.config/share
