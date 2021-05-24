@@ -135,6 +135,7 @@ sudo chmod 777 /bin/up ;
 sudo chmod 777 /bin/c ;
 sudo chmod 777 /bin/off ;
 sudo chmod 777 /bin/pisession ;
+sudo chmod 777 /bin/piconfig ;
 
 
 rm -rf ~/rpi-auto-configure ;
