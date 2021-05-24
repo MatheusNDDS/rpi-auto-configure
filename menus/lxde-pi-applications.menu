@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-applications.menu</MergeFile>
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Exclude>
+			<Filename>qt5ct.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/pi/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>obconf.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxhotkey-gtk.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lxinput.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>thunar-volman-settings.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>pcmanfm-desktop-pref.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<DefaultLayout inline="false">
+		<Merge type="menus"/>
+		<Merge type="files"/>
+	</DefaultLayout>
+	<Menu>
+		<Name>alacarte-made-1</Name>
+		<Directory>alacarte-made-1.directory</Directory>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-1.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-2.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-3.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-4.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-5.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-6.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>alacarte-made.desktop</Filename>
+			<Filename>alacarte-made-1.desktop</Filename>
+			<Filename>alacarte-made-2.desktop</Filename>
+			<Filename>alacarte-made-4.desktop</Filename>
+			<Filename>alacarte-made-5.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>alacarte-made-1</Menuname>
+		<Separator/>
+		<Menuname>Development</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Separator/>
+		<Menuname>Help</Menuname>
+		<Separator/>
+		<Menuname>DesktopSettings</Menuname>
+		<Merge type="files"/>
+	</Layout>
+</Menu>
