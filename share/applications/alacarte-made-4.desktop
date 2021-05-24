@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Imagens
+Exec=pcmanfm ~/Imagens
+Type=Application
+Icon=folder-images

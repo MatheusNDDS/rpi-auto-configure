@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Vídeos
+Exec=pcmanfm ~/Vídeos
+Type=Application
+Icon=folder-videos
