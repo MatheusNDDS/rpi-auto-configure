@@ -128,15 +128,17 @@ rm -rf ~/.config/openbox ; rm -rf ~/.config/lxpanel ; rm -rf ~/.config/lxsession
 
 cp -R ~/rpi-auto-configure/share/* ~/.local/share/ ;
 cp -R ~/rpi-auto-configure/* ~/.config/ ;
+rm -rf ~/.config/install.sh ; rm -rf ~/.config/share
 
 sudo cp -R ~/rpi-auto-configure/bash-magic/* /bin/ ;
+
 sudo chmod 777 /bin/up ;
-sudo chmod 777 /bin/chick ;
+sudo chmod 777 /bin/c ;
 sudo chmod 777 /bin/off ;
 sudo chmod 777 /bin/pisession ;
 
 
 rm -rf ~/rpi-auto-configure ;
-reboot
+
 sudo apt autoremove
 reboot
