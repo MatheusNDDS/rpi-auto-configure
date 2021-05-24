@@ -4,10 +4,10 @@ echo "🕹️ Auto install Script 🕹️"
 echo " by Matheus Dias 👽️"
 
 sudo apt update -y ;
-sudo apt install git -y; 
-sudo apt install menulibre -y;
+sudo apt install git -y ; 
+sudo apt install menulibre -y ;
 sudo apt install synaptic -y ;
-sudo apt install arc-theme - y;
+sudo apt install arc-theme -y ;
 sudo apt purge pulseaudio -y  ;
 sudo apt install gimp -y ;
 sudo apt install inkscape -y ;
@@ -129,9 +129,11 @@ rm -rf ~/.config/openbox ; rm -rf ~/.config/lxpanel ; rm -rf ~/.config/lxsession
 cp -R ~/rpi-auto-configure/share/* ~/.local/share/ ;
 cp -R ~/rpi-auto-configure/* ~/.config/ ;
 
-sudo chmod 777 /rpi-auto-configure/bash-magic/* ;
 sudo cp -R ~/rpi-auto-configure/bash-magic/* /bin/ ;
-
+sudo chmod 777 /bin/up ;
+sudo chmod 777 /bin/chick ;
+sudo chmod 777 /bin/off ;
+sudo chmod 777 /bin/pisession ;
 
 
 rm -rf ~/rpi-auto-configure ;
